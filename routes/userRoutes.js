@@ -7,6 +7,7 @@ router.post('/register',UserController.userRegistration)
 router.post('/login',UserController.userLogin)
 
 // Protected Routes
+router.post('/changepassword',UserController.changeUserPassword)
 
 
 module.exports = router
